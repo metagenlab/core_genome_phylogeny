@@ -15,7 +15,7 @@ See templates folder
 # execution
 
 ```
-snakemake --snakefile ~/work/dev/metagenlab/bact_taxonomy/Snakefile --configfile config.yaml --use-conda --conda-prefix ~/miniconda3/ --use-singularity --singularity-prefix /data/snakemake_singularity_amplicons/ --cores 20 plots/phylo.svg
+snakemake --snakefile Snakefile --configfile config.yaml --use-conda --conda-prefix ~/miniconda3/ --use-singularity --cores 20 plots/phylo.svg
 ```
 
 # example output figure: phylogeny of the family Orbaceae
